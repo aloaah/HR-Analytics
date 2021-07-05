@@ -81,7 +81,14 @@ Ps: we could iterate between the steps depending on our objectives and the resul
 
 * After processing the `concatenated sets` and separating them to recover the original data set with the same dimensions, we will bring the `target column back to the preprocessed train set` and use it to create three different sets for TRINING, TEST and VALIDATION. for the modeling part
 	
-  
+        #### Cleaning the data
+The strategy for cleaning the data is as follows:
+  * Delete columns that are not relevant to the problem. 
+  * Find the missing values for each column.
+  * Drop columns that have more than 20% missing data. Write down the columns.
+  * Convert the columns to their correct data type.
+  * Encode the categorical variables using the appropriate encoding methodologie.
+
 ### b. Modeling  <a name="modeling">
 
 ### c. Loss and scoring  <a name="scoring">
