@@ -157,14 +157,14 @@ The best parameters of our model after Fine Tuning are the following:
 ### b. Scores  <a name="scores">
 Accuracy: 86.86%
 F1 score: 0.867740
-              precision    recall  f1-score   support
-
-         0.0       0.86      0.87      0.87      1440
-         1.0       0.87      0.86      0.87      1437
-
-    accuracy                           0.87      2877
-   macro avg       0.87      0.87      0.87      2877
-weighted avg       0.87      0.87      0.87      2877
+| --- | precision | recall | f1-score | support|
+| --- | --- | --- | --- | --- |
+| 0.0 | 0.86 | 0.87 | 0.87 | 1440 |
+| 1.0 | 0.87 | 0.86  | 0.87  | 1437 |
+| accuracy |  |  | 0.87 | 2877 |
+| macro avg | 0.87 | 0.87 | 0.87 | 2877 |
+| weighted avg | 0.87 | 0.87 | 0.87 | 2877 |
+            
 
 
 ## 5. Submission  <a name="submission">
