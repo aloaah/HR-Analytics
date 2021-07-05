@@ -1,8 +1,13 @@
-# HR-Analytics
 
-# organelle_classifier
-Classify organelles from images of microscopic titration of several cells.
 
+
+---
+<p><img alt="https://www.ceratizit.com/" height="120px" src="https://consent.trustarc.com/v2/asset/09:13:49.986pc83s3_CERATIZIT_G_WEB_color_transparent.png" align="left" hspace="10px" vspace="0px"></p>  <h1>HR-Analytics</h1>
+Data science open position challenge in order to lay the foundation for a technical discussion during the interview with the condidate 
+
+
+
+---
 
 ## Table of content
 
@@ -38,7 +43,7 @@ Classify organelles from images of microscopic titration of several cells.
 
 ## 1. About the context of this study <a name="content">
 
-**Business or activity:**</br>
+### a. **Business or activity:**</br>
 A company which is active in Big Data and Data Science wants to hire data scientists among people who successfully pass some courses which conduct by the company. Many people signup for their training. Company wants to know which of these candidates are really wants to work for the company after training or looking for a new employment because it helps to reduce the cost and time as well as the quality of training or planning the courses and `categorization` of candidates. `Information related to demographics, education, experience are in hands from candidates signup and enrollment`.
 
 The given dataset was designed to understand the factors that lead a person to leave their current job for HR research as well. Through a model(s) that uses current data on `qualifications`, `demographics`, and `experience`, we will be able to `predict the likelihood of a candidate seeking a new job or working for the company`, as well as `interpreting the factors that influence the employee's decision.`
