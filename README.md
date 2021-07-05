@@ -168,9 +168,8 @@ F1 score: 0.867740
 
 
 ## 5. Submission  <a name="submission">
+Thank you for taking the time to learn more about the solution we have implemented, we appreciate your feedback. 
+Here is the link to the CSV [file](https://github.com/Amine-OMRI/HR-Analytics/blob/main/Submission/submission.csv) of the submission.
 
-Thanks to our Image Recognition teacher, Pedro Octaviano, who spent inconsiderate amount of his free time to teach and help us produce the best we could.
+**Note** Please use Googel Colab to open the notebooks and re-run the code to see the result of each cell as there are many code cells and colab will not show them if you open them in Github.
 
-
- * Made by: Wael GRIBAA, Amine OMRI, Sabina REXHA, Abdou Akim GOUMBALA and Meryem GASSAB
- * Date: 25th May 2021
