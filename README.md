@@ -101,7 +101,16 @@ Ps: we could iterate between the steps depending on our objectives and the resul
 
 ### b. Modeling  <a name="modeling">
    We have used three different models:
-   * XGBoost
+   * XGBoost:
+	Boosting is an ensembling technique where new models are added to correct errors made by existing models. Models are added sequentially until no further improvements can be made. A popular example is the AdaBoost algorithm that weights data points that are difficult to predict.
+
+	Gradient boosting is an approach that creates new models that predict the residuals or errors of the previous models, then adds them together to get the final prediction. It is called "gradient boosting" because it uses a gradient descent algorithm to minimize the loss when adding new models.
+
+	XGBoost (eXtreme Gradient Boosting) is a gradient boosted decision tree implementation designed for speed and performance. It is a very popular algorithm that has recently dominated applied machine learning for structured or tabular data
+
+	**OUR BEST MODEL IS XGBoost**
+
+Translated with www.DeepL.com/Translator (free version)
    * Linear SVM
    * CatBoostRegressor
    **Note** we tried them all with unbalanced data and with balanced SMOTE data.
