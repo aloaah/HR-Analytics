@@ -113,11 +113,11 @@ ince we are dealing with unbalanced data, we use the **F1 score** as the evaluat
 
 ## 3. Models benchmarking<a name="benchmarking">
 	XGBoost: 
-	|SMOTE DATA                      |
-	| Approach | Accuracy | F1 score |
-	| --- | --- | --- |
-	| app1 | List all new or modified files |
-	| git diff | Show file differences that haven't been staged |
+|SMOTE DATA                      |
+| Approach | Accuracy | F1 score |
+| --- | --- | --- |
+| app1 | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 
 ### a. Unbalanced Data  <a name="unbalanced">
 
