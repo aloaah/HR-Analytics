@@ -81,16 +81,16 @@ Ps: we could iterate between the steps depending on our objectives and the resul
 
 * After processing the `concatenated sets` and separating them to recover the original data set with the same dimensions, we will bring the `target column back to the preprocessed train set` and use it to create three different sets for TRINING, TEST and VALIDATION. for the modeling part
 	
-       #### Cleaning the data
+  #### Cleaning the data
   The strategy for cleaning the data is as follows:
   * Delete columns that are not relevant to the problem. 
   * Find the missing values for each column.
   * Drop columns that have more than 20% missing data. Write down the columns.
   * Convert the columns to their correct data type.
   * Encode the categorical variables using the appropriate encoding methodologie.
-       #### List of preprocessing appoach
-   We used different pre-processing to deal with missing values, categorical values with high cardinalities and below the list of approaches
-	* App1: One-hot encoding city + Ordinal encoding experience + imputing missing values with the most frequent values
+  #### List of preprocessing appoach
+  We used different pre-processing to deal with missing values, categorical values with high cardinalities and below the list of approaches
+  	* App1: One-hot encoding city + Ordinal encoding experience + imputing missing values with the most frequent values
 	* App2: Binary encoding city + Ordinal encoding experience + imputing missing values with the most frequent values
 	* App3: Hashing encoding city + Ordinal encoding experience + imputing missing values with the most frequent values
 	* App4: One-hot encoding city + Ordinal encoding experience + **Replacing missing values with new categori = "missing"**
@@ -100,15 +100,14 @@ Ps: we could iterate between the steps depending on our objectives and the resul
 	* App7: Hashing encoding city + Combined Ordinal encoding experience + imputing missing values with the most frequent values
 
 ### b. Modeling  <a name="modeling">
-	
-	We have used three different models:
-		* XGBoost
-		* Linear SVM
-		* CatBoostRegressor
-	**Note** we tried them all with unbalanced data and with balanced SMOTE data.
+   We have used three different models:
+   * XGBoost
+   * Linear SVM
+   * CatBoostRegressor
+   **Note** we tried them all with unbalanced data and with balanced SMOTE data.
 	
 ### c. Evaluation Metrics  <a name="scoring">
-	Since we are dealing with unbalanced data, we use the **F1 score** as the evaluation metric most of the time, but we also check the **Accuracy** and the **roc_auc_score** on the test data.
+ince we are dealing with unbalanced data, we use the **F1 score** as the evaluation metric most of the time, but we also check the **Accuracy** and the **roc_auc_score** on the test data.
 
 ## 3. Models benchmarking<a name="benchmarking">
   
