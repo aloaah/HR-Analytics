@@ -140,11 +140,33 @@ ince we are dealing with unbalanced data, we use the **F1 score** as the evaluat
 | app 7| 85.23 | 0.84 |
 	
 ## 4.  Best Mode selection <a name="bestmodel">
+	
+the best model that performed well was XGBoost with the below scores:
+* On SMOTE Balanced data : Accuracy = 86.86 F1 score = 0.687
+* On the initial unbalanced data : Accuracy = 80 F1 score = 0.55
 
 ### a. Fine tuning  <a name="tuning">
-  
+	
+The best parameters of our model after Fine Tuning are the following:
+* eta : 0.1
+* subsample = 1.0
+* colsample_bytree = 0.4
+* max_depth = 8
+* minimum_child_weight = 6
+	
 ### b. Scores  <a name="scores">
-  
+Accuracy: 86.86%
+F1 score: 0.867740
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.87      0.87      1440
+         1.0       0.87      0.86      0.87      1437
+
+    accuracy                           0.87      2877
+   macro avg       0.87      0.87      0.87      2877
+weighted avg       0.87      0.87      0.87      2877
+
+
 ## 5. Submission  <a name="submission">
 
 Thanks to our Image Recognition teacher, Pedro Octaviano, who spent inconsiderate amount of his free time to teach and help us produce the best we could.
