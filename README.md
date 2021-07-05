@@ -94,7 +94,6 @@ Ps: we could iterate between the steps depending on our objectives and the resul
 	* App2: Binary encoding city + Ordinal encoding experience + imputing missing values with the most frequent values
 	* App3: Hashing encoding city + Ordinal encoding experience + imputing missing values with the most frequent values
 	* App4: One-hot encoding city + Ordinal encoding experience + **Replacing missing values with new categori = "missing"**
-	* App4: Binary encoding city + Ordinal encoding experience + imputing missing values with the most frequent values
 	* App5: One-hot encoding city + Combined Ordinal encoding experience + imputing missing values with the most frequent values
 	* App6: Binary encoding city + Combined Ordinal encoding experience + imputing missing values with the most frequent values
 	* App7: Hashing encoding city + Combined Ordinal encoding experience + imputing missing values with the most frequent values
@@ -112,17 +111,34 @@ Ps: we could iterate between the steps depending on our objectives and the resul
 ince we are dealing with unbalanced data, we use the **F1 score** as the evaluation metric most of the time, but we also check the **Accuracy** and the **roc_auc_score** on the test data.
 
 ## 3. Models benchmarking<a name="benchmarking">
-	XGBoost: 
-|SMOTE DATA                      |
+	
+### a. Unbalanced Data  <a name="unbalanced">
+
+	XGBoost: UNBALANCED DATA             
 | Approach | Accuracy | F1 score |
 | --- | --- | --- |
-| app1 | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| app 1 | 85.28 | 0.85 |
+| app 2| 85.45 | 0.84 |
+| app 3 | 85.30 | 0.84 |
+| app 4| 80 | 0.55 |
+| app 5| 78.76 | 0.48 |
+| app 6| 78.91 | 0.48 |
+| app 7| 78.91 | 0.48 |
 
-### a. Unbalanced Data  <a name="unbalanced">
 
 ### b. SMOTE Data  <a name="smote">
   
+	XGBoost: SMOTE DATA         
+| Approach | Accuracy | F1 score |
+| --- | --- | --- |
+| app 1 | 78.91 | 0.48 |
+| app 2| 78.76 | 0.48 |
+| app 3 | 78.91 | 0.49 |
+| app 4| **86.86** | **0.86** |
+| app 5| 85.78 | 0.85 |
+| app 6| 85.23 | 0.84 |
+| app 7| 85.23 | 0.84 |
+	
 ## 4.  Best Mode selection <a name="bestmodel">
 
 ### a. Fine tuning  <a name="tuning">
