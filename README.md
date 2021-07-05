@@ -11,35 +11,31 @@ Data science open position challenge in order to lay the foundation for a techni
 
 ## Table of content
 
-* [0. Modules and versions](#modules)
-* [1. About the context of this study](#content)
-* [2. About the HPA-SCC competition](#competition)
-  * [a. Context](#context)
-  * [b. Links](#links)
-  * [c. Scoring](#scoring)
-* [3. Models used](#models)
-  * [a. HPA Cell Segmentator](#segmentator)
-  * [b. Organelle Classifier](#org_class)
-* [4. API](#api)
-  * [a. Installation](#install)
-  * [b. How to use](#howto)
+* [0. Modules and versions]
+* [1. About the context of this study]
+* [2. Getting started: basic steps]
+  * [a. Preprocessing]
+  * [b. Modeling]
+  * [c. Scoring]
+* [3. Models benchmarking]
+  * [a. Imbalanced Data]
+  * [b. SMOTE Data]
+* [4. Best Mode]
+  * [a. Fine tuning]
+  * [b. Submission]
 * [5. Thanks](#thanks)
 	
 ## 0. Modules and versions <a name="modules">
 	
-* click 7.0
-* Flask 2.0.1
-* imageio 2.9.0
-* importlib-metadata 3.10.0
-* numpy 1.19.5
-* pillow 8.2.0
-* pydantic 1.8.2
-* opencv-python 4.5.1.48
-* scikit-image 0.16.2
-* scipy 1.4.1
-* tensorflow 2.4.1
-* torch 1.4.0
-* torchvision 0.5.0
+* pandas==1.1.5
+* numpy==1.19.5
+* matplotlib==3.2.2
+* seaborn==0.11.1
+* category-encoders==2.2.2
+* regex==2019.12.20
+* xgboost==1.4.2
+* scikit-learn==0.22.2.post1
+* imbalanced-learn==0.4.3
 
 ## 1. About the context of this study <a name="content">
 
