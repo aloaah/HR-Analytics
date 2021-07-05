@@ -20,7 +20,7 @@ Data science open position challenge in order to lay the foundation for a techni
 * [3. Models benchmarking](#benchmarking)
   * [a. Imbalanced Data](#imbalanced)
   * [b. SMOTE Data](#smote)
-* [4. Best Mode selection](#best model)
+* [4. Best Mode selection](#bestmodel)
   * [a. Fine tuning](#tuning)
   * [b. Scores](#scores)
 * [5. Submission](#submission)
@@ -84,7 +84,7 @@ Ps: we could iterate between the steps depending on our objectives and the resul
 
 ### b. SMOTE Data  <a name="smote">
   
-## 4.  Best Mode selection <a name="best model">
+## 4.  Best Mode selection <a name="bestmodel">
 
 ### a. Fine tuning  <a name="tuning">
   
