@@ -65,8 +65,16 @@ The whole data divided to train and test . Target isn't included in test but the
 
 
 
-## 2. About the Human Protein Atlas - Single Cell Classification competition <a name="competition">
+## 2. Getting started
+ The basic steps that I will follow to address this problem and ensure to achieve business value and minimize the risk of error are as follows: 
 
+1.   Understanding the Business
+2.   Loading the data
+3.   Preprocessing and exploratory analysis
+4.   Predictive modeling
+5.   Interpretation of results
+
+Ps: we could iterate between the steps depending on our objectives and the result of each step..
 
 ### a. Context  <a name="context">
   
