@@ -73,6 +73,14 @@ The whole data divided to train and test . Target isn't included in test but the
 Ps: we could iterate between the steps depending on our objectives and the result of each step..
 
 ### a. Preprocessing  <a name="preprocessing">
+	#### Concatenation of aug_train and aug_test
+
+* Since we have the `aug_train` dataset that contains the `target`, which is `not the case` with the `aug_test` dataset, which, as mentioned, will be used for submission and the dataset is `unbalanced`. Most features are categorical (nominal, ordinal, binary), some with high cardinality. Imputation of missing data may be part of our pipeline. **`We will need to concatenate the aug_train and aug_test data`**. Otherwise, we may run into problems if there is a categorical attribute whose values are not all present in the `aug_train` and `aug_test` data.
+
+* We will `isolate the target column` and perform the necessary processing (Imputation, encoding, ...) on the `concatenated aug_train and aug_test` after that we will separate them again into `train` and `test` just like they were at the beginning.
+
+* After processing the `concatenated sets` and separating them to recover the original data set with the same dimensions, we will bring the `target column back to the preprocessed train set` and use it to create three different sets for TRINING, TEST and VALIDATION. for the modeling part
+	
   
 ### b. Modeling  <a name="modeling">
 
